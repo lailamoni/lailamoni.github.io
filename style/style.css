@@ -28,6 +28,12 @@ div {
     display: block;
 }
 
+.img {
+	border:1px solid #CCC;
+	padding:4px;
+    margin:0;
+}
+
 .container {
     padding-right: 15px;
     padding-left: 15px;
@@ -42,12 +48,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header {
-	  margin-bottom: 40px;
+	margin-bottom: 40px;
     font-size: 20px;
 }
 
 .header {
-	  padding: 30px 0;
+	padding: 30px 0;
     color: #cdbfe3;
     text-align: center;
     background-color: #563d7c;
@@ -63,13 +69,13 @@ h1, h2, h3, h4, h5, h6 {
 .header-links li {display: inline;}
 
 .header p {
-	  font-weight: 400;
+	font-weight: 400;
     line-height: 1.4;
     margin: 0 15px;
 }
 
 .header h1 {
-	  color: #fff;
+	color: #fff;
     margin-bottom: 40px;
 }
 
@@ -79,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
 .center {text-align:center;}
 
 h1 {
-	  font-size: 36px;
+	font-size: 36px;
 }
 h2 {
     font-size: 30px;
