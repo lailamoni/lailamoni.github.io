@@ -1,45 +1,98 @@
+var refresh = document.getElementById('refresh');
+
+var note = document.getElementById('note');
+var index = document.getElementById('index');
+var goToIndex = '<br/><a href="#header" style="float:left;" ' + 
+    'class="button bg-blue">Go to top--</a>' + 
+    '<a href="#index" style="float:right;" class="button bg-blue">' + 
+    'Go to index</a> <br/><br/>';
+var indexBuilder = '<h3 class="center brown">Index</h3>' + 
+  '<ul class="index-list" style="">' + 
+  '<li><a href="#mystory">রূপা - হুমায়ুন আহমেদ</a></li>' + 
+  '<li><a href="#mystory2">বৃহন্নলা - হুমায়ুন আহমেদ</a></li>';
+
+var div0 = document.getElementById('story0');
+var div1 = document.getElementById('story1');
+var div2 = document.getElementById('story2');
+var div3 = document.getElementById('story3');
+var div4 = document.getElementById('story4');
+var div5 = document.getElementById('story5');
+var div6 = document.getElementById('story6');
+var div7 = document.getElementById('story7');
+var div8 = document.getElementById('story8');
+var div9 = document.getElementById('story9');
+var div10 = document.getElementById('story10');
+var div11 = document.getElementById('story11');
+var div12 = document.getElementById('story12');
+var div13 = document.getElementById('story13');
+var div14 = document.getElementById('story14');
+var div15 = document.getElementById('story15');
+var div16 = document.getElementById('story16');
+var div17 = document.getElementById('story17');
+var div18 = document.getElementById('story18');
+var div19 = document.getElementById('story19');
+var div20 = document.getElementById('story20');
+var div21 = document.getElementById('story21');
+var div22 = document.getElementById('story22');
+var div23 = document.getElementById('story23');
+var div24 = document.getElementById('story24');
+var div25 = document.getElementById('story25');
+var div26 = document.getElementById('story26');
+var div27 = document.getElementById('story27');
+var div28 = document.getElementById('story28');
+var div29 = document.getElementById('story29');
+var div30 = document.getElementById('story30');
+
 function story() {
-    var refresh = document.getElementById('refresh');
-    refresh.innerHTML = " ";
+    refresh.innerHTML = '<br/><br/><p class="font-large bold button bg-green Cinzel-Regular">' +
+            'Successfully Downloaded</p> <br/><br/>';
     
+    note.innerHTML = '<br/>You are viewing this page from cache. Connect to internet & ' + 
+        'refresh this page to update it\'s contents<br/><br/>';
     
-    var div0 = document.getElementById('story0');
+    div30.innerHTML = '<h3 class="center orange Cinzel-Regular">' + 
+    'Trying to add more stories<br/>Stay Tuned<br/>Thank You</h3>' +
+    '<p class="center orange Cinzel-Regular font-large">24th September, 2017</p>';
     
-    var story0 = '<h3 class="center brown">বৃহন্নলা</h3>' +
-    '<h4 class="center green">হুমায়ুন আহমেদ</h4>' +
-    '<p class="justify">' +
-      '১ <br/>' + 
-      'অতিপ্রাকৃত গল্পে গল্পের চেয়ে ভূমিকা বড় হয়ে থাকে। <br/>' + 
-      'গাছ যত-না বড় তার ডালপালা তার চেয়েও বড়। এই গল্পেও তাই হবে। একটা দীর্ঘ ভূমিকা ' + 
-      'দিয়ে শুরু করব। পাঠকদের অনুরোধ করছি তাঁরা যেন ভূমিকাটা পড়েন। এর প্রয়োজন আছে।' + 
-    '</p>'+ 
-    '<p class="justify">' + 
-      'আমার মামাতো ভাইয়ের বিয়ে। <br/>' + 
-      'বাবা-মা\'র একমাত্র ছেলে। দেখতে রাজপুত্র না হলেও বেশ সুপুরুষ। এম. এ. পাস করেছে। ' +
-      'বাবার ব্যবসা দেখাশোনা করা এবং গ্রুপ থিয়েটার করা- এ দুইয়ে তার কর্মকান্ড সীমাবদ্ধ। <br/>' + 
-      'বাবা-মা\'র একমাত্র ছেলে হলে যা হয়- বিয়ের জন্য অসংখ্য মেয়ে দেখা হতে লাগল। ' + 
-      'কাউকেই পছন্দ হয় না। কেউ বেশি লম্বা, কেউ বেশি বেঁটে, কেউ বেশি ফর্সা, কেউ বেশি ' + 
-      'কথা বলে, আবার কেউ-কেউ দেখা গেল কম কথা বলে। নানান ফ্যাঁকড়া। <br/>' + 
-      'শেষ পর্যন্ত যাকে পছন্দ হলো, সে মেয়ে ঢাকা ইডেন কলেজে বি.এ পড়ে- ইতিহাসে অনার্স। ' + 
-      'মেয়ের বাবা নেই। মা\'র অন্য কোথায় বিয়ে হয়েছে। মেয়ে তার বড় চাচার বাড়িতে মানুষ। ' + 
-      'তিনিই তাকে খরচপত্র দিয়ে বিয়ে দিচ্ছেন। <br/>' + 
-      'আমার মামা এবং মামী দু\'জনের কেউই এই বিয়ে সহজভাবে মেনে নিতে পারলেন না। যে- মেয়ের বাবা নেই, ' + 
-      'মা আবার বিয়ে করেছে- পাত্রী হিসেবে সে তেমন কিছুই না। তা ছাড়া সে খুব সুন্দরীও না। মোটামুটি ধরনের ' + 
-      'চেহারা। আমার মামাতো ভাই তবু কেন জানি একবারমাত্র এই মেয়েকে দেখেই বলে দিয়েছে- এই মেয়ে ছাড়া ' + 
-      'আর কাউকে সে বিয়ে করবে না। মেয়ের বাবা নেই তো কী হয়েছে? সবার বাবা চিরকাল থাকে নাকি? মেয়ের ' + 
-      'মা\'র বিয়ে হয়েছে, তাতে অসুবিধাটা কী? অল্প বয়সে বিধবা হয়েছেন, তাঁর তো বিয়ে করাই উচিত। ' + 
-      'এমন তো না যে, দেশে বিধবাবিবাহ নিষিদ্ধ। <br/>' + 
-      '...' + 
+    var story0 = '<div class="justify">' +
+    '<h3 class="center brown">প্রায়োরিটি লিস্ট</h3>' +
+    '<h4 class="center light-blue">Unknown</h4><br/>' +
+    '<p class="">দর্শন ক্লাসে শিক্ষক ঢুকলেন একটা কাচের জার, বড় কয়েকটা পাথর, ' +
+        'বেশ কয়েকটা নুড়ি পাথর আর বালি নিয়ে। এসেই তিনি কোনো কথা ' +
+        'না বলে জারে বড় পাথরগুলো একটার পর একটা দিতে লাগলেন। ' +
+        'সব পাথর দেয়া হয়ে গেলে শিক্ষক প্রশ্ন করলেন যে, জারটা পুরোটা ভরেছে কিনা। ' +
+        'শিক্ষার্থীরা বলল হ্যাঁ। ' +
+    '</p>' +
+    '<p class="">' +
+        'তখনই শিক্ষক সেই জারে আবার নুড়ি পাথরগুলো ঢালতে লাগলেন। ' +
+       ' নুড়ি পাথরগুলো জারে আগে থেকে রাখা বড় পাথরগুলোর ফাঁকে ফাঁকে ' +
+       ' জায়গা করে নিচ্ছিল। নুড়ি পাথর শেষ হওয়ার পর শিক্ষার্থীরা আবার ' +
+        'সম্মতি জানাল যে জারটা ভরে গেছে। এরপর তিনি বালি ঢেলে সত্যি ' +
+        'সত্যিই জারটাকে ভরে ফেললেন। ' +
+    '</p>' +
+    '<p>' +
+        'এরপর শিক্ষক বললেন, “এই জারটা আমাদের জীবনের মত। ' +
+        'এখানে বড় বড় পাথরগুলো আমাদের জীবনের সবচেয়ে জরুরী জিনিষ। ' +
+        'যেমন, স্বাস্থ্য, পরিবার। নুড়ি পাথরগুলো হচ্ছে, জীবনকে চালাতে গেলে ' +
+        'যা যা দরকার তা। যেমন, অর্থ, চাকরি। আর বালিটা হচ্ছে জীবনকে সুন্দর ' +
+        'করতে যে ছোট ছোট জিনিষ দরকার, সেগুলো। ' +
     '</p>' + 
-    '<p class="justify orange">' + 
-      '[Will be updated soon.... (11th June, 2017)]' +
-    '</p>' + 
-    '<p class="justify">' + 
-
-    '</p>' + 
-    '<p class="justify">' + 
-
-    '</p>';
+    '<p>' +
+        'এখন শুরুতেই যদি আমি জারে নুড়ি পাথর কিংবা বালি দিয়ে ভরে ফেলতাম, '+
+        'তাহলে বড় বড় পাথরের জন্য জায়গায়ই থাকতো না। সেরকম, আমাদের ' +
+        'জীবনের কম গুরুত্বপূর্ণ বিষয়গুলোতে বেশি গুরুত্ব দিলে প়রে সবচেয়ে জরুরী ' + 
+        'বিষয়গুলো অধরাই রয়ে যাবে। তাই জীবনকে সুন্দর করতে হলে ' +
+        'নিজের প্রায়োরিটি লিস্টটা বুঝতে হবে সবচেয়ে ভাল করে।”' +
+      '</p>' +
+    '</div>';
     
+    story0 += goToIndex;
     div0.innerHTML = story0;
+    indexBuilder += '<li><a href="#story0">প্রায়োরিটি লিস্ট - Unknown</a></li>';
+    
+
+    
+    
+    indexBuilder += '</ul>';
+    index.innerHTML = indexBuilder;
 } 

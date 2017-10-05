@@ -7,17 +7,23 @@ body {
     margin: 0;
 }
 
-.white {color:#fff;}
-.blue {color:#2196F3;}
-.brown {color:#795548;}
-.red {color:#F44336;}
-.green {color:#4CAF50;}
-.pink {color: #E91E63;}
-.blue-gray {color: #607D8B;}
-.orange {color: #FF5722;}
-.light-blue {color:#87CEEB;}
-.purple {color:#9C27B0;}
-.deep-purple {color:#673AB7;}
+.white {color:#fff !important;}
+.blue {color:#2196F3 !important;}
+.brown {color:#795548 !important;}
+.red {color:#F44336 !important;}
+.green {color:#4CAF50 !important;}
+.pink {color: #E91E63 !important;}
+.blue-gray {color: #607D8B !important;}
+.orange {color: #FF5722 !important;}
+.light-blue {color:#87CEEB !important;}
+.purple {color:#9C27B0 !important;}
+.deep-purple {color:#673AB7 !important;}
+
+.bg-blue {background:#0099CC !important;color:#A8DFF4 !important;}
+.bg-green {background:#669900 !important;color:#D3E992 !important;}
+.bg-red {background:#CC0000 !important;color:#FFAFAF !important;}
+.bg-yellow {background:#FF8A00 !important;color:#FFECC0 !important;}
+.bg-pink {background:#E91E63 !important;color:#FFAFAF !important;}
 
 a {
     color: #337ab7;
@@ -32,6 +38,11 @@ div {
 	border:1px solid #CCC;
 	padding:4px;
     margin:0;
+}
+
+.social-pic {
+    
+    max-width:1280px;margin:0 auto;
 }
 
 .container {
@@ -159,3 +170,39 @@ b {font-weight: 700;}
 }
 .footer a {color: #fff; padding:0 10px;}
 .footer li {display: inline;}
+
+
+/* to blink link */
+@-webkit-keyframes blinkLink {
+    0%  {color:#fff;font-size:110%;}
+    50% {color:#FFECC0;font-size:105%;}
+    80% {color:#87CEEB;}
+}
+.blinkLink {
+    -webkit-animation: blinkLink 1s linear 0s infinite alternate;
+}
+
+/* to blink link top */
+@-webkit-keyframes blinkLinkTop {
+    0%  {color:#F44336;}
+    50% {color:#2196F3;}
+    80% {color:#4CAF50;}
+}
+.blinkLinkTop {
+    
+    -webkit-animation: blinkLinkTop 1s linear 0s infinite alternate;
+}
+.go-to-top {
+    text-align:center;
+}
+
+/* to blink link top */
+@-webkit-keyframes blinkLinkDownload {
+    0%  {color:#FFF;}
+    50% {color:#FFECC0;}
+    100% {color:#FFF;}
+}
+.blinkLinkDownload {
+    
+    -webkit-animation: blinkLinkDownload 1s linear 0s infinite alternate;
+}
