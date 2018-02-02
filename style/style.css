@@ -174,8 +174,8 @@ b {font-weight: 700;}
 
 /* to blink link */
 @-webkit-keyframes blinkLink {
-    0%  {color:#fff;font-size:110%;}
-    50% {color:#FFECC0;font-size:105%;}
+    0%  {color:#fff;}
+    50% {color:#FFECC0;}
     80% {color:#87CEEB;}
 }
 .blinkLink {
