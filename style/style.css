@@ -41,11 +41,12 @@ div {
 }
 
 .social-pic {
-    
+
     max-width:1280px;margin:0 auto;
 }
 
 .container {
+    max-width:720px;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -189,7 +190,7 @@ b {font-weight: 700;}
     80% {color:#4CAF50;}
 }
 .blinkLinkTop {
-    
+
     -webkit-animation: blinkLinkTop 1s linear 0s infinite alternate;
 }
 .go-to-top {
@@ -203,6 +204,6 @@ b {font-weight: 700;}
     100% {color:#FFF;}
 }
 .blinkLinkDownload {
-    
+
     -webkit-animation: blinkLinkDownload 1s linear 0s infinite alternate;
 }
