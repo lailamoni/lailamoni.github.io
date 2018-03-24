@@ -1,0 +1,27 @@
+
+title: Laila Parvin's Blog
+email: laila.linux@gmail.com
+description: >-
+  This is my personal experimental blog site.
+  I am a college student - session 2017-18 - Commerce Group at
+  JAHANGIRPUR GIRLS' HIGH SCHOOL & COLLEGE. I'm learning HTML.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://lailamoni.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  lailamoni
+facebook_username: laila.linux
+
+# Build settings
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
